@@ -23,3 +23,5 @@ pkill picom 2>/dev/null
 picom &
 pkill polybar 2>/dev/null
 bash ~/.config/bspwm/polybar.sh
+pkill feh
+feh --bg-fill --no-fehbg ~/.config/bspwm/imagen.jpg
