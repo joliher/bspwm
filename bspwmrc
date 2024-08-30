@@ -22,7 +22,4 @@ bspc config border_width 0
 pkill picom 2>/dev/null
 picom &
 pkill polybar 2>/dev/null
-polybar topleft &
-polybar topcenter &
-polybar topright &
-polybar bottomright &
+bash ~/.config/bspwm/polybar.sh
